@@ -1,8 +1,23 @@
 body {
-	background-color: #B8EDCE;
+	background-color: #E8FFEE;
   font-family: 'lato', sans-serif;
+}
+
+header {
+	padding-top: 15px;
+	padding-right:15px;
+	text-align: right;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 15px;
 }
 
 .img-circle {
     border-radius: 50%;
+    height: 350px;
+    width: 350px;
 }
