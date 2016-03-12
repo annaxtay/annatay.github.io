@@ -1,18 +1,9 @@
 body {
-  background-color: #E8FFEE;
+  background-color: #FFFFFF; /*#E8FFEE*/
   font-family: 'lato', sans-serif;
   margin: 0;
   padding: 0px;
 }
-
-/*#name {
-    text-align: left;
-    font-family: 'lobster', cursive;
-    font-size: 35px;
-    margin: 0;
-    padding:0 0 0 20px;
-    color: black;
-}*/
 
 #navigation {
     position: fixed;
@@ -20,13 +11,13 @@ body {
     width: 100%;
     height: 50px;
     text-align: right;
-    background-color: white;
+    background-color: #E8ECEF;
     margin: 0;
-    padding: 5px;
+    padding: 0;
     border-bottom: 1px;
     border-bottom-style:inset;
-    border-bottom: white;
-    opacity: 0.75;
+    border-bottom: #E8ECEF;
+    opacity: 0.90;
 }
 
 #navigation li {
@@ -36,7 +27,7 @@ body {
 
 
 header {
-    background-image: url("../images/desk.jpg");
+    background-image: url("../images/creative.jpg");
     background-position: center;
     background-size: cover;
     height: 500px;
@@ -51,6 +42,33 @@ header h1 {
     left: 40%;
 }
 
+h2 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000000;
+    width: 15%;
+}
+
+.boxed {
+    border: 1.5px solid white;
+    top: 160px;
+    left: 580px;
+    position: absolute;
+    margin: 0;
+    padding: 27px 40px 27px 40px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+
+p#title {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    padding: 0px;
+    color:white;
+}
+
 a {
     color: #000000;
     text-decoration: none;
@@ -62,4 +80,36 @@ a {
     border-radius: 50%;
     height: 350px;
     width: 350px;
+}
+
+.moi {
+    background-color: white;
+    position: absolute;
+    margin: 0;
+    display: inline;
+}
+
+p#about {
+    border: none;
+    padding: 0px 300px 20px 300px;
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+}
+
+
+#portfolio {
+    background-image: url("../images/water.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 50px 0 0 0;
+    position: relative;
+    padding: 30px 0 30px 0;
+    color:#000000;
+}
+
+footer {
+    background-color: light grey;
 }
