@@ -11,10 +11,23 @@
 		<script type="text/javascript">
 
 		$(document).ready( function() {
-    	$('.subMenu').smint({
+    	$('.moi').smint({
     		'scrollSpeed' : 1000
     		});
 		});
+
+		$(document).ready( function() {
+    	$('.portfolio').smint({
+    		'scrollSpeed' : 1000
+    		});
+		});
+
+		$(document).ready( function() {
+    	$('.footer').smint({
+    		'scrollSpeed' : 1000
+    		});
+		});
+
 
 		</script>
 		
@@ -32,9 +45,9 @@
 <body>
 	<div>
 	<ul id="navigation">
-		<li><a href="url">About</a></li>
-		<li><a href="url">Portfolio</a></li>
-		<li><a href="url">Contact</a></li>
+		<li><a href="#about">ABOUT</a></li>
+		<li><a href="#portfolio">PORTFOLIO</a></li>
+		<li><a href="#contact">CONTACT</a></li>
 	</ul>
 	</div>
 
@@ -47,13 +60,14 @@
   		</div>
 	</header>
 
+<center>
+
 <!--About me-->
-		<center>
 			<br>
+		<div id = "about">
 		<img class="img-circle" src= "images/me.jpg">
-		<div id = "moi">
 		<h2> ABOUT</h2>
-		<p id = "about">
+		<p id = "description">
 		I am a UX/UI designer, interested in simplicity and usability. In a past life, I was an attorney who worked in finance, but now I look towards my creative spirit to engage in the opportunity to build beautiful, high fidelity webpages that increase user happiness. Currently a resident of Brooklyn, NY, but a transplant from Los Angeles, CA. Lover of (^-人-^)s, yoga, noodles, digital media, and fashion. 
 		</p>
 		</div>
@@ -68,9 +82,9 @@
 	</div>
 
 <footer>
-	<h2>CONTACT ME</h2>
 <br>
-<div id="social-icons">
+<div id="contact">
+		<h2>CONTACT ME</h2>
 <a href="https://twitter.com/anna___tay"><img src="images/twitter.png" width="40" height="40" style="PADDING-RIGHT: 15px; alt="Twitter" /></a>
 <a href="https://www.linkedin.com/in/annatay"><img src="images/linkedin.png" width="40" height="40" style="PADDING-RIGHT: 15px; alt="LinkedIn" /></a>
 <a href="https://github.com/annaxtay"><img src="images/github.png" width="40" height="40" style="PADDING-RIGHT: 15px; alt="GitHub" /></a>

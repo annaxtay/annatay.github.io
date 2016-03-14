@@ -1,5 +1,5 @@
 body {
-  background-color: #FFFFFF; /*#E8FFEE*/
+  background-color: #FFFFFF;
   font-family: 'lato', sans-serif;
   margin: 0;
   padding: 0px;
@@ -24,7 +24,6 @@ body {
     display: inline-block;
     padding: 20px 20px 35px 0;
 }
-
 
 header {
     background-image: url("../images/creative.jpg");
@@ -73,7 +72,34 @@ a {
     color: #000000;
     text-decoration: none;
     font-weight: bold;
-    padding-left: 15px;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+} 
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .img-circle {
@@ -85,11 +111,10 @@ a {
 .moi {
     background-color: white;
     position: absolute;
-    margin: 0;
-    display: inline;
+    margin: 50px 0 50px 0;
 }
 
-p#about {
+p#description {
     border: none;
     padding: 0px 300px 20px 300px;
     font-size: 16px;
@@ -110,6 +135,8 @@ p#about {
     color:#000000;
 }
 
-footer {
-    background-color: light grey;
+#contact {
+    margin: 50px 0 50px 0;
 }
+
+
