@@ -5,8 +5,6 @@ body {
   padding: 0px;
 }
 
-
-
 #navigation {
     position: fixed;
     top: 0;
@@ -73,7 +71,7 @@ header {
 }
 
 h2 {
-    padding-bottom: 20px;
+    padding-bottom: 18px;
     border-bottom: 1px solid #000000;
     width: 225px;
 }
