@@ -23,12 +23,11 @@ body {
 
 #navigation li {
     display: inline-block;
-    padding: 20px 20px 35px 0;
+    padding: 20px 35px 35px 0;
 }
 
 #navigation a {
     text-decoration: none;
-    font-weight: bold;
     position: relative;
     color: #000;
     text-decoration: none;
@@ -57,6 +56,15 @@ body {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+#name {
+  margin: 0 8.75% 0 2%;
+  float: left;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  font-family: 'roboto', sans-serif;
 }
 
 header {
@@ -128,13 +136,56 @@ p#description {
     color:#000000;
 }
 
-#contact {
+/*Images for portfolio */
+  .portfoliocontainer{
+  display: inline-block;
+  padding: 2% 10% 0 10%;
+  width: 100%;
+}
+
+  .photos{
+    list-style-type: none;
+    margin: 0px;
+    padding: 1%; 
+  }
+
+  .photos li{
+    float: left;
+    width: 25%;
+    padding: 1%;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .photos li:hover .fade{
+    opacity: 1;
+  }
+
+  .photos img{
+    width: 100%;
+  }
+
+  .photos .fade{
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+
+  .fade:hover {
+      opacity: 0.5;
+      }
+  }
+  
+.contact {
     margin: 50px 0 50px 0;
 }
 
 center.container {
   padding: 30px 15px;
 }
+
 
 /*
 --------------------------------------
@@ -148,5 +199,25 @@ center.container {
 @media (max-width: 400px) {
   p#description {
     padding: 0 0;
+  }
+
+  #navigation li {
+    display: inline-block;
+    padding: 5% 2.5% 2.5% 0;
+  }
+
+  .photos li{
+    height: 100%;
+  }
+
+  .portfoliocontainer{
+    margin-right: 50%;
+    max-width: 400px;
+}
+
+
+@media (min-width: 401px) and (max-width: 760px) {
+  .photos li {
+    width: 50%;
   }
 }
