@@ -132,6 +132,7 @@ header {
 
 h2 {
     padding-bottom: 18px;
+    margin-bottom: 30px;
     border-bottom: 1px solid #000000;
     width: 225px;
 }
@@ -189,8 +190,8 @@ p#description {
 
 /*Images for portfolio */
   .portfoliocontainer{
-  display: inline-block;
-  width: 100%;
+    display: inline-block;
+    width: 100%;
 }
 
   .photos {
@@ -255,23 +256,32 @@ center.container3{
 
 /*
 --------------------------------------
------------ LADDER -----------
+----------- Company Pages  -----------
 --------------------------------------
 */
 
-.ladder-logo{
+.company-logo{
     display: block;
     padding-top: 150px;
   }
 
-.ladder-logo img {
-  max-width: 100%;
+.company-logo img {
+    max-width: 100%;
 }
 
-.ladder-head{
-  display: auto;
+.company-head{
+    display: auto;
 }
 
+#compix {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+iframe {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 
 /*
