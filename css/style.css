@@ -276,6 +276,7 @@ center.container3{
 #compix {
   margin-top: 20px;
   margin-bottom: 20px;
+  max-width: 100%;
 }
 
 iframe {
