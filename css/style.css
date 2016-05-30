@@ -301,7 +301,6 @@ iframe {
     display: inline-block;
     padding: 5% 2.5% 2.5% 0;
   }
-  }
 
 .portfoliocontainer {
     display: inline-block;
@@ -322,8 +321,11 @@ iframe {
     padding: 0;
 }
 
-.company-logo img {
+  .company-logo {
+    max-width: 100%;
     margin: 0 5% 0 5%;
+}
+
 }
 
 @media (min-width: 401px) and (max-width: 760px) {
