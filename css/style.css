@@ -136,8 +136,8 @@ h2 {
     position: relative;
     margin: 0 auto;
     padding: 27px 40px 27px 40px;
-    font-family: 'Roboto Slab', serif;
-    font-size: 40px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 38px;
     color: white;
     text-align: center;
     width: 225px;
@@ -145,7 +145,7 @@ h2 {
 
 p#title {
     font-size: 18px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Francois One', sans-serif;
     padding: 0px;
     color:white;
 }
@@ -204,7 +204,7 @@ p#description {
 
 a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #000000;
 }
 .btn-stroke-black:hover {
   background-color: #FFFFFF;
