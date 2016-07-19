@@ -181,6 +181,37 @@ p#description {
     padding: 30px 0 30px 0;
 }
 
+.button {
+  margin: 0 auto;
+  width: 250px;
+}
+
+.btn {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 15px;
+  letter-spacing: 1px;
+  font-size: 12px;
+  white-space: normal;  
+}
+
+.btn-stroke-black {
+  background-color: black;
+  color: #FFFFFF !important;
+  border: 2px solid #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.btn-stroke-black:hover {
+  background-color: #FFFFFF;
+  color: black !important;  
+  border: 2px solid #000000;
+}
+
 /*Images for portfolio */
   .portfoliocontainer{
     display: inline-block;
