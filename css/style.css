@@ -137,7 +137,8 @@ h2 {
     margin: 0 auto;
     padding: 27px 40px 27px 40px;
     font-family: 'Francois One', sans-serif;
-    font-size: 38px;
+    font-size: 40px;
+    letter-spacing: 0.05em;
     color: white;
     text-align: center;
     width: 225px;
@@ -147,7 +148,7 @@ p#title {
     font-size: 18px;
     font-family: 'Francois One', sans-serif;
     padding: 0px;
-    color:white;
+    color: white;
 }
 
 .img-circle {
